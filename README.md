@@ -20,5 +20,5 @@ Tasks:
  * [ClouDNS](https://www.cloudns.net/)
  * others...
 * Run as a Service
-* .NET Core Support
+* ~~.NET Core Support~~ see the SNMPDyndnsUpdater.Core project (tested in linux)
 * Run in a docker container
