@@ -1,17 +1,21 @@
 {
-  "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
-
   "dependencies": {
     "Microsoft.NETCore.App": "1.1.0",
     "SharpSnmpLib": "10.0.0-beta1"
   },
-
   "frameworks": {
     "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NetCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        }
+      },
       "imports": "dnxcore50"
     }
-  }
+  },
+  "version": "1.0.0-*"
 }
